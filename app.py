@@ -1,4 +1,9 @@
 import streamlit as st 
+from img_classification import teachable_machine_classification
+import keras
+from PIL import Image, ImageOps
+import numpy as np
+
 st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Escudo_UACH.svg/1200px-Escudo_UACH.svg.png",width=250)
 st.sidebar.header("UDA:INTRODUCCIÓN AL MACHINE LEARNING")
 st.sidebar.write("""
