@@ -1,3 +1,3 @@
-Import Streamlit as st 
+import streamlit as st 
 st.sidebar.button("Click aquí") 
 st.balloons()
